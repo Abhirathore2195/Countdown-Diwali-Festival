@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300&display=swap');
+
+html,body {
+/*   height: 100%;
+  width: 100%; */
+  background-image: url(https://images.unsplash.com/photo-1635778976124-f609898bafc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80);
+  background-size: cover;
+  background-position: center center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  min-height:100vh;
+  justify-content:center;
+  margin:0;
+  padding:0;
+  
+}
+h1{
+  font-size: 4rem;
+  margin-top:-10rem;
+}
+.countdown{
+  display:flex;
+}
+.big-text{
+  font-size:6rem;
+    line-height:1;
+  margin:0 2rem;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
